@@ -1,0 +1,38 @@
+main {
+  display: flex;
+  margin: auto;
+}
+.innerContainer {
+  width: 1200px;
+  display: flex;
+  margin: auto;
+  gap: 50px;
+}
+section {
+  width: 900px;
+}
+input {
+  width: 700px;
+  font-size: 25px;
+  margin: 10px 0 30px 0;
+}
+textarea {
+  width: 700px;
+  height: 200px;
+}
+button {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Light background with some transparency */
+  backdrop-filter: blur(10px); /* Blur effect for the background */
+  padding: 20px; /* Padding for spacing */
+  background-color: rgba(158, 151, 151, 0.4);
+  display: inline;
+  padding: 10px 30px;
+  margin: 0;
+  border: none;
+  margin: 30px 0;
+}
